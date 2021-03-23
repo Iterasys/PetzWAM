@@ -28,7 +28,7 @@ public class Home extends Base {
         txtInputSearch.clear(); // limpar o conteúdo da caixa de texto
         txtInputSearch.sendKeys(product); // escreve na caixa de texto
     }
-    // Feature --> Steps --> searchWith...
+    // Feature --> Steps --> searchWith... --> search
 
     public void searchWithMagnifierButton(String product){
         search(product);
